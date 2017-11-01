@@ -1,0 +1,8 @@
+['236', ['headache']]
+['250', ['nasopharyngitis']]
+['951', ['headache']]
+['965', ['nasopharyngitis']]
+['1320', ['hypersensitivity reactions']]
+['1355', ['itching']]
+['1369', ['rash']]
+['1379', ['swelling of lips']]
