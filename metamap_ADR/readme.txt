@@ -51,10 +51,14 @@ $python3 3_standardization/zky_phase_compare.py [train_xml/test_xml]
 
 ________________________________________________________________________________________
 
- 
-This phage will be upload later.
+
 Evaluation phage:
 Data: Tac 2017 ADR training corpus.
 Data extension format: xml
 Data repo: 1_remove_section/train_xml  
+#Step1:Get str from oringal xml file and predicted results that will help us to calulate the recall_rate and precision.
+$python 4_evaluation/zky_getdata.py train.xml
+$ python 4_evaluation/zky_evaluation.py train.xml
+#step2:Visually display with a graph
+$python 4_evaluation/zky_matplotlib.py train.xml
 
